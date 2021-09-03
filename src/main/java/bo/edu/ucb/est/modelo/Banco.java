@@ -13,11 +13,11 @@ import java.util.List;
  */
 public class Banco {
     private String nombre;
-    private List<Cliente> clientes;
+    private List <Cliente> clientes;
     
     public Banco(String nombre) {
         this.nombre = nombre;
-        this.clientes = new ArrayList();
+        this.clientes = new ArrayList<Cliente>();
     }
     
     public String getNombre(){
